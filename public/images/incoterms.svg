@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-label="Incoterms 常用术语责任划分示意图：EXW、FCA、FOB、CIF、DDP">
+  <rect width="1000" height="340" fill="#f7f9fc"/>
+  <text x="500" y="38" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="21" font-weight="bold" fill="#0b2a4a">Incoterms® 2020：常用术语责任与风险划分</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif" font-size="12" fill="#52657a">
+    <text x="70" y="85">卖方责任递增 →</text>
+    <rect x="70" y="110" width="860" height="14" rx="7" fill="#e4e9f0"/>
+    <rect x="70" y="110" width="150" height="14" rx="7" fill="#0b2a4a"/>
+    <rect x="220" y="110" width="200" height="14" fill="#124a70"/>
+    <rect x="420" y="110" width="250" height="14" fill="#0e7c86"/>
+    <rect x="670" y="110" width="260" height="14" rx="7" fill="#d96a1a"/>
+    <g font-weight="bold" fill="#fff" text-anchor="middle">
+      <text x="145" y="121">EXW</text><text x="320" y="121">FCA / FOB</text><text x="545" y="121">CFR / CIF</text><text x="800" y="121">DAP / DDP</text>
+    </g>
+  </g>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <g fill="#fff" stroke="#cfd8e3">
+      <rect x="70" y="160" width="215" height="120" rx="8"/>
+      <rect x="305" y="160" width="215" height="120" rx="8"/>
+      <rect x="540" y="160" width="215" height="120" rx="8"/>
+      <rect x="775" y="160" width="155" height="120" rx="8"/>
+    </g>
+    <g font-size="14" font-weight="bold" fill="#0b2a4a">
+      <text x="177" y="188" text-anchor="middle">EXW 工厂交货</text>
+      <text x="412" y="188" text-anchor="middle">FOB 船上交货</text>
+      <text x="647" y="188" text-anchor="middle">CIF 成本保险运费</text>
+      <text x="852" y="188" text-anchor="middle">DDP 完税交货</text>
+    </g>
+    <g font-size="12" fill="#52657a">
+      <text x="177" y="218" text-anchor="middle">卖方：工厂交货</text>
+      <text x="177" y="240" text-anchor="middle">买方：全程运输</text>
+      <text x="177" y="262" text-anchor="middle">风险：交买方处置</text>
+      <text x="412" y="218" text-anchor="middle">卖方：装上船</text>
+      <text x="412" y="240" text-anchor="middle">买方：海运与保险</text>
+      <text x="412" y="262" text-anchor="middle">风险：装船时转移</text>
+      <text x="647" y="218" text-anchor="middle">卖方：运费+保险</text>
+      <text x="647" y="240" text-anchor="middle">买方：到港后费用</text>
+      <text x="647" y="262" text-anchor="middle">风险：仍在装船时转移</text>
+      <text x="852" y="218" text-anchor="middle">卖方：全程+清关</text>
+      <text x="852" y="240" text-anchor="middle">买方：目的地收货</text>
+      <text x="852" y="262" text-anchor="middle">风险：目的地交货</text>
+    </g>
+  </g>
+  <text x="500" y="315" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#6b7c90">依据 ICC Incoterms® 2020 · 学习示意，具体以官方规则与合同为准 · 核验 2026-11-21</text>
+</svg>

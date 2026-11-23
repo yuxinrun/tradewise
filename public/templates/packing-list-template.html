@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Packing List Template - TradeWise</title>
+<style>
+  body{font-family:Arial,"Microsoft YaHei",sans-serif;color:#16283b;max-width:900px;margin:32px auto;padding:0 24px;line-height:1.6}
+  h1{color:#0b2a4a;border-bottom:3px solid #0b2a4a;padding-bottom:8px;font-size:26px}
+  .row{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:12px}
+  .col{flex:1;min-width:200px}
+  label{display:block;font-size:12px;color:#6b7c90;font-weight:bold;margin-bottom:4px}
+  input,textarea{width:100%;border:none;border-bottom:1px solid #cfd8e3;padding:6px 0;font-size:14px;outline:none;font-family:inherit}
+  table{width:100%;border-collapse:collapse;margin:20px 0;font-size:13px}
+  th{background:#0a6b73;color:#fff;padding:9px;text-align:left}
+  td{border-bottom:1px solid #e4e9f0;padding:9px}
+  tfoot td{font-weight:bold;background:#f7f9fc}
+  .note{background:#f1f4f8;padding:14px;border-radius:6px;font-size:13px;color:#52657a}
+</style>
+</head>
+<body>
+<h1>PACKING LIST</h1>
+<div class="row">
+  <div class="col"><label>Packing List No.</label><input></div>
+  <div class="col"><label>Date</label><input type="date"></div>
+  <div class="col"><label>Invoice No.</label><input></div>
+</div>
+<div class="row">
+  <div class="col"><label>Seller</label><textarea rows="2"></textarea></div>
+  <div class="col"><label>Buyer</label><textarea rows="2"></textarea></div>
+</div>
+<table>
+  <thead><tr><th>Ctn No.</th><th>Description</th><th>Qty/CTN</th><th>Total Qty</th><th>N.W. (kg)</th><th>G.W. (kg)</th><th>Size (cm)</th><th>CBM</th></tr></thead>
+  <tbody>
+    <tr><td><input value="1/20"></td><td><input></td><td><input></td><td><input></td><td><input></td><td><input></td><td><input></td><td><input></td></tr>
+    <tr><td><input value="2/20"></td><td><input></td><td><input></td><td><input></td><td><input></td><td><input></td><td><input></td><td><input></td></tr>
+    <tr><td><input value="..."></td><td><input></td><td><input></td><td><input></td><td><input></td><td><input></td><td><input></td><td><input></td></tr>
+  </tbody>
+  <tfoot><tr><td colspan="3">TOTAL</td><td><input></td><td><input></td><td><input></td><td></td><td><input></td></tr></tfoot>
+</table>
+<div class="row">
+  <div class="col"><label>Total Cartons</label><input></div>
+  <div class="col"><label>Total CBM</label><input></div>
+  <div class="col"><label>Shipping Mark</label><input></div>
+</div>
+<p class="note">Weight and dimensions must come from actual measurement, not estimates. Keep consistent with the Commercial Invoice. Template: TradeWise · 内容更新时间 2026-11-15.</p>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.about-hero { background: linear-gradient(120deg, var(--navy-900), #0d4a63); color: #fff; padding: var(--sp-14) 0; }
+.about-hero .eyebrow { color: #6fd0cb; }
+.about-hero h1 { color: #fff; font-size: clamp(30px, 3.6vw, 44px); margin-bottom: var(--sp-3); }
+.about-hero p { color: rgba(255,255,255,.75); font-size: 16px; }
+
+.about-grid { display: grid; grid-template-columns: 1fr 280px; gap: var(--sp-12); align-items: start; }
+.about-main h2 { font-size: 25px; margin: var(--sp-12) 0 var(--sp-5); padding-bottom: var(--sp-3); border-bottom: 2px solid var(--navy-800); }
+.about-main h2:first-child { margin-top: 0; }
+.about-main p { line-height: 1.95; color: var(--gray-600); font-size: 15px; }
+
+.principle-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--sp-4); }
+.principle-grid .card h3 { font-size: 16px; margin: var(--sp-3) 0 6px; }
+.principle-grid .card p { font-size: 13px; margin: 0; }
+
+.disclaimer-box { background: var(--gray-50); border-left: 3px solid var(--orange-500); padding: var(--sp-5); border-radius: 0 var(--radius) var(--radius) 0; }
+.disclaimer-box p { font-size: 14px; margin-bottom: var(--sp-3); }
+.disclaimer-box p:last-child { margin-bottom: 0; }
+
+.contact-links { display: flex; gap: var(--sp-3); flex-wrap: wrap; margin-top: var(--sp-5); }
+
+.about-side { position: sticky; top: calc(var(--header-h) + 20px); display: flex; flex-direction: column; gap: var(--sp-4); }
+.about-side .side-card { background: var(--gray-50); border: 1px solid var(--gray-200); border-radius: var(--radius-lg); padding: var(--sp-5); }
+.about-side .side-card h3 { display: flex; align-items: center; gap: 7px; font-size: 15px; margin-bottom: var(--sp-3); }
+.about-side .side-card h3 svg { color: var(--teal-600); }
+.about-side .side-card a { display: block; font-size: 13px; color: var(--gray-600); padding: 6px 0; }
+.about-side .side-card p { font-size: 13px; color: var(--gray-600); line-height: 1.7; margin: 0; }
+
+@media (max-width: 1024px) { .about-grid { grid-template-columns: 1fr; } .about-side { position: static; display: grid; grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 768px) { .principle-grid, .about-side { grid-template-columns: 1fr; } }

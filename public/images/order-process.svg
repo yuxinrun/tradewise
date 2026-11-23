@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" role="img" aria-label="外贸订单完整流程图：询盘、报价、签约、生产、验货、报关、物流、收款与售后">
+  <rect width="1000" height="420" fill="#f7f9fc"/>
+  <text x="500" y="40" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="21" font-weight="bold" fill="#0b2a4a">一笔出口订单的完整旅程</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <g>
+      <rect x="40" y="85" width="180" height="70" rx="8" fill="#0b2a4a"/>
+      <text x="130" y="116" text-anchor="middle" font-size="15" fill="#fff" font-weight="bold">01 询盘与确认</text>
+      <text x="130" y="138" text-anchor="middle" font-size="11" fill="#a8c4d8">需求清单</text>
+      <rect x="270" y="85" width="180" height="70" rx="8" fill="#124a70"/>
+      <text x="360" y="116" text-anchor="middle" font-size="15" fill="#fff" font-weight="bold">02 报价与谈判</text>
+      <text x="360" y="138" text-anchor="middle" font-size="11" fill="#a8c4d8">报价单版本</text>
+      <rect x="500" y="85" width="180" height="70" rx="8" fill="#0e7c86"/>
+      <text x="590" y="116" text-anchor="middle" font-size="15" fill="#fff" font-weight="bold">03 签约与定金</text>
+      <text x="590" y="138" text-anchor="middle" font-size="11" fill="#a8c4d8">PI / 合同</text>
+      <rect x="730" y="85" width="180" height="70" rx="8" fill="#0e7c86"/>
+      <text x="820" y="116" text-anchor="middle" font-size="15" fill="#fff" font-weight="bold">04 生产与验货</text>
+      <text x="820" y="138" text-anchor="middle" font-size="11" fill="#a8c4d8">质量与交期</text>
+    </g>
+    <path d="M820 155v50" stroke="#13969b" stroke-width="2.5" fill="none"/>
+    <g>
+      <rect x="730" y="205" width="180" height="70" rx="8" fill="#d96a1a"/>
+      <text x="820" y="236" text-anchor="middle" font-size="15" fill="#fff" font-weight="bold">05 单证与报关</text>
+      <text x="820" y="258" text-anchor="middle" font-size="11" fill="#ffe0c2">三单一致</text>
+      <rect x="500" y="205" width="180" height="70" rx="8" fill="#0a6b73"/>
+      <text x="590" y="236" text-anchor="middle" font-size="15" fill="#fff" font-weight="bold">06 装运与提单</text>
+      <text x="590" y="258" text-anchor="middle" font-size="11" fill="#a8e6e3">交付单据</text>
+      <rect x="270" y="205" width="180" height="70" rx="8" fill="#1a4d78"/>
+      <text x="360" y="236" text-anchor="middle" font-size="15" fill="#fff" font-weight="bold">07 收款与结汇</text>
+      <text x="360" y="258" text-anchor="middle" font-size="11" fill="#a8c4d8">到账确认</text>
+      <rect x="40" y="205" width="180" height="70" rx="8" fill="#0b2a4a"/>
+      <text x="130" y="236" text-anchor="middle" font-size="15" fill="#fff" font-weight="bold">08 售后与复购</text>
+      <text x="130" y="258" text-anchor="middle" font-size="11" fill="#a8c4d8">客户档案</text>
+    </g>
+    <g stroke="#d96a1a" stroke-width="2" fill="none">
+      <path d="M220 120h50M450 120h50M680 120h50M710 240h-30M480 240h-30M250 240h-30"/>
+    </g>
+    <text x="500" y="330" text-anchor="middle" font-size="13" fill="#52657a">关键闭环：确认需求 → 收款 → 交付 → 维护 → 复购</text>
+    <text x="500" y="360" text-anchor="middle" font-size="12" fill="#6b7c90">任何一环失误都可能影响整笔订单 · TradeWise 原创示意图</text>
+  </g>
+</svg>

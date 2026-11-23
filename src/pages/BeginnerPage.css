@@ -1,0 +1,37 @@
+.begin-hero { background: linear-gradient(125deg, #071d33, #0d4a63); color: #fff; padding: var(--sp-16) 0; }
+.begin-hero .eyebrow { color: #6fd0cb; }
+.begin-hero h1 { color: #fff; font-size: clamp(30px, 3.8vw, 46px); margin-bottom: var(--sp-4); }
+.begin-hero > .container > p { max-width: 760px; font-size: 16px; color: rgba(255,255,255,.75); line-height: 1.85; }
+.begin-progress-card { margin-top: var(--sp-8); max-width: 560px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.16); border-radius: var(--radius-lg); padding: var(--sp-5); }
+.begin-progress-card > div:first-child { display: flex; justify-content: space-between; align-items: baseline; font-size: 14px; color: rgba(255,255,255,.75); }
+.begin-progress-card strong { font-size: 20px; color: #f4b860; }
+.begin-progress-bar { height: 8px; background: rgba(255,255,255,.15); border-radius: 100px; margin: 12px 0 8px; overflow: hidden; }
+.begin-progress-bar span { display: block; height: 100%; background: linear-gradient(90deg, #3fc7c2, #f4b860); border-radius: 100px; transition: width .3s ease; }
+.begin-progress-card p { margin: 0; font-size: 12px; color: rgba(255,255,255,.5); }
+
+.phase-filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: var(--sp-8); }
+.phase-filters button { padding: 8px 16px; border: 1px solid var(--gray-200); background: #fff; border-radius: 100px; font-size: 13px; color: var(--gray-600); }
+.phase-filters button:hover { border-color: var(--teal-500); color: var(--teal-700); }
+.phase-filters button.active { background: var(--navy-800); border-color: var(--navy-800); color: #fff; font-weight: 700; }
+
+.day-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--sp-5); }
+.day-card { display: flex; flex-direction: column; }
+.day-card.done { border-color: var(--teal-500); background: var(--teal-100); }
+.day-head { display: flex; align-items: center; gap: 8px; margin-bottom: var(--sp-3); }
+.day-check { width: 22px; height: 22px; border: 2px solid var(--gray-300); border-radius: 6px; background: #fff; display: grid; place-items: center; flex-shrink: 0; }
+.day-card.done .day-check { background: var(--teal-600); border-color: var(--teal-600); }
+.day-num { font-size: 12px; font-weight: 800; color: var(--teal-600); letter-spacing: .06em; }
+.day-phase { margin-left: auto; font-size: 11px; color: var(--gray-500); background: var(--gray-100); padding: 2px 8px; border-radius: 100px; }
+.day-card h3 { font-size: 17px; margin-bottom: var(--sp-4); }
+.day-task { display: grid; grid-template-columns: 50px 1fr; gap: 8px; margin-bottom: 10px; }
+.day-task > span { display: inline-flex; align-items: center; gap: 3px; font-size: 12px; font-weight: 700; color: var(--teal-700); }
+.day-task.practice > span { color: var(--orange-600); }
+.day-task p { font-size: 13px; line-height: 1.7; color: var(--gray-600); margin: 0; }
+.day-link { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 700; color: var(--teal-600); margin-top: auto; padding-top: var(--sp-3); border-top: 1px solid var(--gray-100); }
+
+.begin-note { display: flex; gap: 12px; margin-top: var(--sp-10); background: var(--gray-50); border: 1px solid var(--gray-200); border-radius: var(--radius); padding: var(--sp-5); }
+.begin-note svg { color: var(--teal-600); flex-shrink: 0; margin-top: 3px; }
+.begin-note p { margin: 0; font-size: 13px; color: var(--gray-600); line-height: 1.8; }
+
+@media (max-width: 1024px) { .day-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 768px) { .day-grid { grid-template-columns: 1fr; } }

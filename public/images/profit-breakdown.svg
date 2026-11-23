@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" role="img" aria-label="外贸利润构成图：销售收入分解为采购、物流、平台费用、其他成本与利润">
+  <rect width="900" height="460" fill="#f7f9fc"/>
+  <text x="450" y="42" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="22" font-weight="bold" fill="#0b2a4a">外贸订单利润构成（教学示例）</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <rect x="60" y="90" width="780" height="60" rx="8" fill="#0b2a4a"/>
+    <text x="450" y="128" text-anchor="middle" font-size="17" fill="#fff" font-weight="bold">销售收入 100% = 销售价格 × 汇率</text>
+    <rect x="60" y="175" width="300" height="55" rx="6" fill="#124a70"/>
+    <text x="210" y="210" text-anchor="middle" font-size="15" fill="#fff" font-weight="bold">采购成本 38%</text>
+    <rect x="365" y="175" width="160" height="55" rx="6" fill="#0e7c86"/>
+    <text x="445" y="210" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">物流 16%</text>
+    <rect x="530" y="175" width="120" height="55" rx="6" fill="#13969b"/>
+    <text x="590" y="210" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">平台 12%</text>
+    <rect x="655" y="175" width="90" height="55" rx="6" fill="#6b7c90"/>
+    <text x="700" y="210" text-anchor="middle" font-size="13" fill="#fff" font-weight="bold">其他 8%</text>
+    <rect x="750" y="175" width="90" height="55" rx="6" fill="#d96a1a"/>
+    <text x="795" y="210" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">利润 26%</text>
+    <path d="M450 150v20M210 230v40M445 230v40M590 230v40M700 230v40M795 230v40" stroke="#cfd8e3" stroke-width="2"/>
+    <text x="450" y="300" text-anchor="middle" font-size="14" fill="#52657a" font-weight="bold">利润 = 销售收入 − 所有成本（含隐性成本）</text>
+    <g font-size="13" fill="#6b7c90">
+      <text x="120" y="350">隐性成本容易被忽略：</text>
+      <text x="120" y="378">· 汇率波动与银行费用　· 退货与售后损耗　· 资金占用　· 验货与认证　· 样品与展会分摊</text>
+    </g>
+    <rect x="60" y="405" width="780" height="34" rx="6" fill="#fff1e6"/>
+    <text x="450" y="428" text-anchor="middle" font-size="12" fill="#8a5a2b">比例为教学设定，不代表真实行业水平；实际核算请使用外贸利润计算器并核对官方费用</text>
+  </g>
+</svg>

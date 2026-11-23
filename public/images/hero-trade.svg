@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-label="全球贸易网络插画：地球、国际航线、港口与集装箱">
+  <defs>
+    <radialGradient id="glow" cx="52%" cy="42%" r="55%">
+      <stop offset="0" stop-color="#1a7f8c" stop-opacity=".55"/>
+      <stop offset="55%" stop-color="#0d4a6b" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#071d33" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="globeFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#124a70"/>
+      <stop offset="1" stop-color="#08243d"/>
+    </linearGradient>
+    <linearGradient id="routeA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8792b"/><stop offset="1" stop-color="#f4b860"/>
+    </linearGradient>
+    <linearGradient id="routeB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3fc7c2"/><stop offset="1" stop-color="#a8e6e3"/>
+    </linearGradient>
+    <clipPath id="globeClip"><circle cx="500" cy="330" r="215"/></clipPath>
+    <filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+
+  <!-- 背景光晕 -->
+  <ellipse cx="500" cy="330" rx="470" ry="360" fill="url(#glow)"/>
+
+  <!-- 背景装饰弧线 -->
+  <g fill="none" stroke="#4aa3b8" stroke-width="1" opacity=".16">
+    <circle cx="500" cy="330" r="300"/>
+    <circle cx="500" cy="330" r="375"/>
+    <path d="M60 330h880M500 20v620"/>
+  </g>
+
+  <!-- 地球 -->
+  <circle cx="500" cy="330" r="222" fill="#0d4a6b" opacity=".35" filter="url(#soft)"/>
+  <circle cx="500" cy="330" r="215" fill="url(#globeFill)" stroke="#2a86a0" stroke-width="1.6"/>
+  <g clip-path="url(#globeClip)" fill="none" stroke="#4fa9be" stroke-width="1" opacity=".38">
+    <ellipse cx="500" cy="330" rx="215" ry="72"/>
+    <ellipse cx="500" cy="330" rx="215" ry="140"/>
+    <ellipse cx="500" cy="330" rx="215" ry="200"/>
+    <path d="M500 115v430M285 330h430M330 210h340M330 450h340"/>
+    <path d="M385 125c30 90 30 320 0 410M615 125c-30 90-30 320 0 410"/>
+  </g>
+  <!-- 简化大陆轮廓 -->
+  <g clip-path="url(#globeClip)" fill="#1b6b86" opacity=".5">
+    <path d="M350 200c30-25 70-30 95-10 18 14 8 38-12 48-24 12-30 34-18 58 10 20-4 40-28 38-26-2-40-26-50-50-12-28-13-64 13-84z"/>
+    <path d="M430 350c26-8 52 6 60 30 8 26-6 62-26 92-16 24-42 18-48-10-6-28-20-44-22-72-2-22 14-34 36-40z"/>
+    <path d="M560 180c40-18 92-12 118 14 20 20 10 48-16 58-34 12-46 40-76 42-30 2-52-24-52-54 0-26 8-50 26-60z"/>
+    <path d="M640 340c30-10 60 4 66 30 6 28-14 56-40 70-22 12-42-8-44-34-2-22 4-58 18-66z"/>
+  </g>
+
+  <!-- 航线（从中国出发） -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M610 300 Q780 130 905 210" stroke="url(#routeA)" stroke-width="2.6" stroke-dasharray="7 6"/>
+    <path d="M610 300 Q760 420 890 380" stroke="url(#routeB)" stroke-width="2.2" stroke-dasharray="6 6"/>
+    <path d="M610 300 Q500 90 330 150" stroke="url(#routeA)" stroke-width="2.2" stroke-dasharray="6 6"/>
+    <path d="M610 300 Q480 500 300 470" stroke="url(#routeB)" stroke-width="2" stroke-dasharray="5 7"/>
+  </g>
+
+  <!-- 城市节点 -->
+  <g>
+    <circle cx="610" cy="300" r="9" fill="#e8792b" opacity=".25"/><circle cx="610" cy="300" r="5" fill="#e8792b"/>
+    <circle cx="905" cy="210" r="5" fill="#f4b860"/><circle cx="890" cy="380" r="5" fill="#3fc7c2"/>
+    <circle cx="330" cy="150" r="5" fill="#f4b860"/><circle cx="300" cy="470" r="5" fill="#3fc7c2"/>
+  </g>
+  <g font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="#dbeaf2">
+    <text x="622" y="288">中国 CN</text>
+    <text x="914" y="200">北美</text>
+    <text x="900" y="402">欧洲</text>
+    <text x="250" y="142">东南亚</text>
+    <text x="242" y="492">中东</text>
+  </g>
+
+  <!-- 底部港口与货轮剪影 -->
+  <g opacity=".92">
+    <!-- 吊机 -->
+    <g stroke="#3b90a8" stroke-width="3" fill="none">
+      <path d="M120 640V520M120 520l60-38M120 520l-40-26"/>
+      <path d="M112 640h16M70 494h100"/>
+      <path d="M180 494v40M250 640V552M250 552l44-26M250 552l-30-20"/>
+    </g>
+    <!-- 集装箱堆 -->
+    <g>
+      <rect x="300" y="600" width="62" height="40" rx="2" fill="#16627a"/>
+      <rect x="366" y="600" width="62" height="40" rx="2" fill="#e8792b" opacity=".85"/>
+      <rect x="300" y="558" width="62" height="40" rx="2" fill="#1d7a90"/>
+      <rect x="432" y="600" width="62" height="40" rx="2" fill="#124e68"/>
+      <g stroke="#fff" stroke-width="1" opacity=".25">
+        <path d="M310 600v40M320 600v40M330 600v40M340 600v40M350 600v40M376 600v40M388 600v40M400 600v40M412 600v40M442 600v40M454 600v40M466 600v40M478 600v40"/>
+      </g>
+    </g>
+    <!-- 货轮 -->
+    <g>
+      <path d="M540 640h300l-26 40H572z" fill="#0e3b58" stroke="#3b90a8" stroke-width="2"/>
+      <rect x="590" y="606" width="200" height="34" fill="#155e78"/>
+      <rect x="600" y="586" width="46" height="20" fill="#e8792b" opacity=".8"/>
+      <g fill="#3fc7c2" opacity=".75">
+        <rect x="660" y="612" width="34" height="22"/><rect x="700" y="612" width="34" height="22"/>
+        <rect x="740" y="612" width="34" height="22"/>
+      </g>
+    </g>
+    <!-- 水面 -->
+    <path d="M0 682h1000" stroke="#1d6f8a" stroke-width="2" opacity=".5"/>
+    <g stroke="#2b87a0" stroke-width="1.5" opacity=".35">
+      <path d="M60 700h120M240 710h140M440 698h120M640 712h160M840 700h120"/>
+    </g>
+  </g>
+</svg>

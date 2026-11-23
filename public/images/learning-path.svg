@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-label="外贸学习路径流程图：九个阶段从认知外贸到业务增长">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f9fc"/><stop offset="1" stop-color="#eaf2f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="620" fill="url(#bg)"/>
+  <text x="600" y="48" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="24" font-weight="bold" fill="#0b2a4a">从零基础到独立经营 · 九步学习路径</text>
+  <g font-family="Arial,'Microsoft YaHei',sans-serif">
+    <!-- 第一行 5 个 -->
+    <g>
+      <rect x="40" y="90" width="200" height="110" rx="10" fill="#0b2a4a"/>
+      <text x="140" y="128" text-anchor="middle" font-size="14" fill="#7fd4d0" font-weight="bold">STEP 01</text>
+      <text x="140" y="160" text-anchor="middle" font-size="19" fill="#fff" font-weight="bold">认知外贸</text>
+      <text x="140" y="184" text-anchor="middle" font-size="11" fill="rgba(255,255,255,.65)">理解流程与角色</text>
+    </g>
+    <path d="M240 145h40" stroke="#13969b" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="280" y="90" width="200" height="110" rx="10" fill="#124a70"/>
+      <text x="380" y="128" text-anchor="middle" font-size="14" fill="#7fd4d0" font-weight="bold">STEP 02</text>
+      <text x="380" y="160" text-anchor="middle" font-size="19" fill="#fff" font-weight="bold">产品选择</text>
+      <text x="380" y="184" text-anchor="middle" font-size="11" fill="rgba(255,255,255,.65)">选品与供应链</text>
+    </g>
+    <path d="M480 145h40" stroke="#13969b" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="520" y="90" width="200" height="110" rx="10" fill="#0e7c86"/>
+      <text x="620" y="128" text-anchor="middle" font-size="14" fill="#a8e6e3" font-weight="bold">STEP 03</text>
+      <text x="620" y="160" text-anchor="middle" font-size="19" fill="#fff" font-weight="bold">市场研究</text>
+      <text x="620" y="184" text-anchor="middle" font-size="11" fill="rgba(255,255,255,.65)">需求与竞争判断</text>
+    </g>
+    <path d="M720 145h40" stroke="#13969b" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="760" y="90" width="200" height="110" rx="10" fill="#0e7c86"/>
+      <text x="860" y="128" text-anchor="middle" font-size="14" fill="#a8e6e3" font-weight="bold">STEP 04</text>
+      <text x="860" y="160" text-anchor="middle" font-size="19" fill="#fff" font-weight="bold">客户开发</text>
+      <text x="860" y="184" text-anchor="middle" font-size="11" fill="rgba(255,255,255,.65)">找对人与渠道</text>
+    </g>
+    <path d="M960 145h40" stroke="#13969b" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="1000" y="90" width="160" height="110" rx="10" fill="#d96a1a"/>
+      <text x="1080" y="128" text-anchor="middle" font-size="14" fill="#ffe0c2" font-weight="bold">STEP 05</text>
+      <text x="1080" y="160" text-anchor="middle" font-size="19" fill="#fff" font-weight="bold">询盘报价</text>
+      <text x="1080" y="184" text-anchor="middle" font-size="11" fill="rgba(255,255,255,.7)">专业转化</text>
+    </g>
+    <!-- 连接线到第二行 -->
+    <path d="M1080 200v60Q1080 290 1030 290H170Q120 290 120 340" fill="none" stroke="#13969b" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+    <!-- 第二行 4 个（反向） -->
+    <g>
+      <rect x="40" y="340" width="200" height="110" rx="10" fill="#d96a1a"/>
+      <text x="140" y="378" text-anchor="middle" font-size="14" fill="#ffe0c2" font-weight="bold">STEP 06</text>
+      <text x="140" y="410" text-anchor="middle" font-size="19" fill="#fff" font-weight="bold">订单成交</text>
+      <text x="140" y="434" text-anchor="middle" font-size="11" fill="rgba(255,255,255,.7)">合同与单证</text>
+    </g>
+    <path d="M240 395h40" stroke="#13969b" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="280" y="340" width="200" height="110" rx="10" fill="#0a6b73"/>
+      <text x="380" y="378" text-anchor="middle" font-size="14" fill="#a8e6e3" font-weight="bold">STEP 07</text>
+      <text x="380" y="410" text-anchor="middle" font-size="19" fill="#fff" font-weight="bold">国际物流</text>
+      <text x="380" y="434" text-anchor="middle" font-size="11" fill="rgba(255,255,255,.65)">运输与报关</text>
+    </g>
+    <path d="M480 395h40" stroke="#13969b" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="520" y="340" width="200" height="110" rx="10" fill="#0a6b73"/>
+      <text x="620" y="378" text-anchor="middle" font-size="14" fill="#a8e6e3" font-weight="bold">STEP 08</text>
+      <text x="620" y="410" text-anchor="middle" font-size="19" fill="#fff" font-weight="bold">收款结汇</text>
+      <text x="620" y="434" text-anchor="middle" font-size="11" fill="rgba(255,255,255,.65)">安全收汇与利润</text>
+    </g>
+    <path d="M720 395h40" stroke="#13969b" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="760" y="340" width="200" height="110" rx="10" fill="#0b2a4a"/>
+      <text x="860" y="378" text-anchor="middle" font-size="14" fill="#7fd4d0" font-weight="bold">STEP 09</text>
+      <text x="860" y="410" text-anchor="middle" font-size="19" fill="#fff" font-weight="bold">业务增长</text>
+      <text x="860" y="434" text-anchor="middle" font-size="11" fill="rgba(255,255,255,.65)">长期经营</text>
+    </g>
+    <g>
+      <rect x="1000" y="340" width="160" height="110" rx="10" fill="#fff" stroke="#d96a1a" stroke-width="2" stroke-dasharray="5 4"/>
+      <text x="1080" y="382" text-anchor="middle" font-size="13" fill="#d96a1a" font-weight="bold">30 天</text>
+      <text x="1080" y="406" text-anchor="middle" font-size="13" fill="#0b2a4a" font-weight="bold">入门计划</text>
+      <text x="1080" y="428" text-anchor="middle" font-size="10" fill="#6b7c90">配套行动路线</text>
+    </g>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0 L8 4 L0 8 z" fill="#13969b"/>
+    </marker>
+  </defs>
+  <text x="600" y="520" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13" fill="#6b7c90">每一步都配有知识分类、实战教程、案例与本地工具 · 来源：TradeWise 外贸实战学院</text>
+</svg>

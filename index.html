@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/tradewise/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0B2A4A" />
+    <meta name="description" content="TradeWise 外贸实战学院 —— 从零基础到独立开展国际贸易，系统掌握外贸与跨境电商的每一个关键环节。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TradeWise 外贸实战学院" />
+    <meta property="og:title" content="TradeWise 外贸实战学院 - 从中国出发，走向全球市场" />
+    <meta property="og:description" content="中国外贸与跨境电商实战知识平台。Learn Trade. Build Business. Go Global." />
+    <meta property="og:image" content="/tradewise/images/og-cover.svg" />
+    <title>TradeWise 外贸实战学院 - 从中国出发，走向全球市场</title>
+    <script type="text/javascript">
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function (s) {
+            return s.replace(/~and~/g, '&');
+          }).join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      })(window.location);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
